@@ -9,4 +9,5 @@ class SensorsTest(unittest.TestCase):
         self.assertTrue(len(sen) >= 1)
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(SensorsTest)
+    unittest.TextTestRunner(verbosity=2).run(suite)

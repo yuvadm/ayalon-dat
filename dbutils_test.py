@@ -9,4 +9,5 @@ class DBUtilsTest(unittest.TestCase):
         self.assertTrue(len(tables) >= 1)
 
 if __name__ == '__main__':
-    unittest.main()
+    suite = unittest.TestLoader().loadTestsFromTestCase(DBUtilsTest)
+    unittest.TextTestRunner(verbosity=2).run(suite)
