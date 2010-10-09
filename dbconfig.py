@@ -1,10 +1,10 @@
-# databse hostname or IP
+# database hostname or IP
 HOST = '127.0.0.1'
 
 # database name (instance id), use XE for express edition
 SID = 'XE'
 
-# databse username
+# database username
 USER = 'user'
 
 # database password
