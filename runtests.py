@@ -9,5 +9,6 @@ def createSuite():
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(SensorsTest))
     return suite
 
-suite = createSuite()
-unittest.TextTestRunner(verbosity=2).run(suite)
+if __name__ == '__main__':
+    suite = createSuite()
+    unittest.TextTestRunner(verbosity=2).run(suite)
