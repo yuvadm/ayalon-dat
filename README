@@ -8,3 +8,7 @@ Dependencies
 ------------
 - cx_Oracle library (http://cx-oracle.sourceforge.net/)
 - live Oracle DB instance, XE 10g running on localhost is fine
+
+Unit Tests
+----------
+Run the entire test suite by running 'python runtests.py'
