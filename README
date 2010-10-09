@@ -1,6 +1,10 @@
 Ayalon Highway Data Analysis Project
 ====================================
-
 Created by Yuval Adam (http://y3xz.com)
-
 Data by Ayalon Highways (http://ayalonhw.co.il/)
+
+
+Dependencies
+------------
+- cx_Oracle library (http://cx-oracle.sourceforge.net/)
+- live Oracle DB instance, XE 10g running on localhost is fine
